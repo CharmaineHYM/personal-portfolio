@@ -360,8 +360,33 @@ animation: loading 1s linear infinite;
    text-align: center;
 }
 
+.footer_site_platform_list{
+    list-style: none;
+    color: var(--loading-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5px;
+}
+
+.footer_site_platform_list_item, .footer_site_platform{
+    color: var(--grey);
+    font-size: var(--fs-xxs);
+}
+
+.footer_site_platform_list_item a{
+    color: var(--grey);
+    transition: 500ms ease-in-out;
+}
+
+.footer_site_platform_list_item a:hover{
+    color: var(--black);
+}
+
 .footer_copyright{
     color: var(--grey);
+    font-size: var(--fs-xxs);
 }
 
 @media only screen and (max-width: 768px) {
