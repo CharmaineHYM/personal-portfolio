@@ -16,17 +16,23 @@
     --fs-xs: 1rem;
     --families: 'Shippori Antique', sans-serif;
     --subfamilies: "Cormorant Garamond",serif;
+    --bg-color:#1f1e1e;
+    --loading-color:rgba(77, 77, 77, 0.932);
+    --white: #fff;
+    --black: #000;
+    --grey: #858792;
+    --tiffany: #13e7c7;
 }
 
 a{
     text-decoration: none;
-    color: #fff;
+    color: var(--white);
 }
 
 p, a, h1, h2, h3, h4, h5, h6, button, span, li, label{
     font-family: var(--families);
     line-height: 1.3;
-    color: #fff;
+    color: var(--white);
 }
 
 h1, h2, h3, h4, h5, h6{
