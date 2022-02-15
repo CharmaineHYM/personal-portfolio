@@ -6,6 +6,20 @@ const previous_btn =document.querySelector('.experience_btn_previous');
 const next_btn =document.querySelector('.experience_btn_next');
 const items = document.querySelectorAll('.experience_item')
 
+// chrome css
+const header = document.querySelector('.header');
+const headerIcon = document.querySelector('.header_icon');
+const header_title = document.querySelector('.header_title');
+let isChrome = navigator.userAgent.match(/chrome|chromium|crios/i)
+
+let media = window.matchMedia('(max-width: 550px)');
+
+
+if(isChrome && media){
+    header.classList.add('header_isChrome');
+    header.classList.add('header_icon_isChrome');
+}
+
 // image load
 let lazyLoad = function(img){
     img.src = img.dataset.src;

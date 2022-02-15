@@ -438,11 +438,35 @@ animation: loading 1s linear infinite;
         margin-bottom: 20px;
     }
 
+    .header {
+        grid-template-rows: .4fr .4fr;
+    }
+
     .header_icon{
         width: 200px;
         height: 200px;
+        grid-row: 2/2;
     }
+
+    .header_title{
+        grid-column: 1/7;
+        grid-row: 1/1;
+        align-self: flex-end;
+        font-size: var(--fs-m);
+    }
+
+    .header.header_isChrome {
+        grid-template-rows: .4fr 1fr;
+    }
+
+    .header_icon.header_icon_isChrome{
+        grid-row: 2/2;
+        margin: 20px;
+    }
+
 }
+
+
 @media only screen and (max-width: 400px){
     .skills_item{
         max-width: 250px;
