@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,206 +11,276 @@
     <link rel="stylesheet" href="/master.css">
     <script defer src="/script.js"></script>
 </head>
+
 <body>
     <header class="header dis-grid">
-        <img class="header_banner lazyLoad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAFVCAQAAACK607JAAAEQUlEQVR42u3VMQ0AAAzDsJU/6bGoetgQ8iQHANRFAgAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYADBgADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAwYAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYADBgADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAwYAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYADBgADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAwYAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABwIABAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAcCAAQADBgADBgAMGAAMGAAwYAAwYADAgAHAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABwIABAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAcCAAQADBgADBgAMGAAMGAAwYAAwYADAgAHAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABwIABAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAcCAAQADBgADBgAMGAAMGAAwYAAwYADAgAHAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgADBgAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgADBgAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgADBgAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAOWAAAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgAMGACmPJvVAVbmjjMdAAAAAElFTkSuQmCC" data-src="https://res.cloudinary.com/dn3c3zw9h/image/upload/v1644717414/charmaine_banner_rehcnm.jpg" alt="charmaine banner" loading="lazy">
+        <img class="header_banner lazyLoad"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA8AAAAFVCAQAAACK607JAAAEQUlEQVR42u3VMQ0AAAzDsJU/6bGoetgQ8iQHANRFAgAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYADBgADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAwYAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYADBgADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAwYAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYADBgADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAwYAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABwIABAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAcCAAQADBgADBgAMGAAMGAAwYAAwYADAgAHAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABwIABAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAcCAAQADBgADBgAMGAAMGAAwYAAwYADAgAHAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABwIABAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAcCAAQADBgADBgAMGAAMGAAwYAAwYADAgAHAgAHAgAEAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgADBgAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgADBgAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAMGAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgADBgAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYAAwYADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAOWAAAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgAMGAAMGAAMGAAwYAAwYADAgAHAgAEAAwYAAwYADBgADBgADBgAMGAAMGAAwIABwIABAAMGAAMGAAwYAAwYAAwYADBgADBgAMCAAcCAAQADBgADBgAMGACmPJvVAVbmjjMdAAAAAElFTkSuQmCC"
+            data-src="https://res.cloudinary.com/dn3c3zw9h/image/upload/v1644657787/Portfolio/Web_1920_2_2x_jst8yo.jpg"
+            alt="charmaine banner" loading="lazy">
         <h1 class="header_title">Front-end developer</h1>
         <div class="header_icon">
-            <img class="header_icon_img lazyLoad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAFVCAQAAABrmuQsAAABn0lEQVR42u3QQREAAAwCoNm/9D6m8CACOSoKVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoQIVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUIEKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFCgQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFahQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFClSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQIVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoQIUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUoEKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqFKhQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUIFKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKECFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoWKaQ8CNQFWBL+KJwAAAABJRU5ErkJggg==" data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638102841/portfolio2_jwonm9.jpg" alt="" loading="lazy">
+            <img class="header_icon_img lazyLoad"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIUAAAFVCAQAAABrmuQsAAABn0lEQVR42u3QQREAAAwCoNm/9D6m8CACOSoKVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoQIVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUIEKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFCgQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFahQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFClSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQIVKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoQIUKFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoUKFSpUoEKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqFKhQoUKFChUqVKhQoUKFChUqVKhQoUKFChUqVKhQoUIFKlSoUKFChQoVKlSoUKFChQoVKlSoUKFChQoVKlSoUKECFSpUqFChQoUKFSpUqFChQoUKFSpUqFChQoWKaQ8CNQFWBL+KJwAAAABJRU5ErkJggg=="
+                data-src="https://res.cloudinary.com/dw3afnyec/image/upload/v1638102841/portfolio2_jwonm9.jpg" alt=""
+                loading="lazy">
         </div>
     </header>
     <main class="main">
-    <section class="intro">
-        <div class="intro_name_wrapper">
-            <h2 class="intro_name mar-h10">Hello! I'm Charmaine</h2>
-        </div>
-        <p class="intro_description pad-b10">Always looking for new challenge on front-end development</p>
-        <div class="social social_mobile">
-            <a class="social_link" href="mailto:charmaine.hym@gmail.com">
-                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z"/></svg>
-            </a>
-        <a class="social_link" href="https://www.linkedin.com/in/charmaine-ho-57a561229/">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
-        </a>
-        <a class="social_link" href="https://codepen.io/Charmaine_Ho">
-            <svg width="15" height="15" viewBox="0 0 100 100"><path d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3L88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8L19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2L34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z"></path></svg>
-        </a>
-        <a class="social_link" href="https://twitter.com/CharmaineHYM">
-            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
-        </a>
-        </div>
-    </section>
-    <section class="experience mar-h50 txt-c">
-        <div class="experience_content pad-r2">
-        <h2 class="experience_header main_header">Education & Work Experience</h2>
-        <div class="experience_wrapper">
-            <div class="experience_item" data-item="0">
-                <h3 class="experience_item_title">Hong Kong Shue Yan University</h3>
-                <p class="experience_item_period">Sep 2017 - Aug 2021</p>
-                <ul class="experience_item_list">
-                    <li class="experience_item_list_item">Bachelor of Art (Hons) in Journalism and Communication</li>
-                </ul>
-                <h3 class="experience_item_title">Lung Kong World Federation School Limited LWF Secondary School</h3>
-                <p class="experience_item_period">Sep 2012 - Aug 2017</p>
-                <ul class="experience_item_list">
-                    <li class="experience_item_list_item">Graduated</li>
-                </ul>
+        <section class="intro">
+            <div class="intro_name_wrapper">
+                <h2 class="intro_name mar-h10">Hello! I'm Charmaine</h2>
             </div>
-            <div class="experience_item dis-none" data-item="1">
-                <h3 class="experience_item_title">[FT] Lane Crawford Joyce Group (Lane Crawford)</h3>
-                <p class="experience_item_period">Jun 2021 - Current</p>
-                <ul class="experience_item_list">
-                    <li class="experience_item_list_item">Site Content Update (lanecrawford.com/.hk/.cn)</li>
-                    <li class="experience_item_list_item">Site maintaining</li>
-                    <li class="experience_item_list_item">Site performance analysis</li>
-                    <li class="experience_item_list_item">Reporting</li>
-                    <li class="experience_item_list_item">UI/UX design</li>
-                </ul>
+            <p class="intro_description pad-b10">Always looking for new challenge on front-end development</p>
+            <div class="social social_mobile">
+                <a class="social_link" href="mailto:charmaine.hym@gmail.com">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path
+                            d="M12 12.713l-11.985-9.713h23.971l-11.986 9.713zm-5.425-1.822l-6.575-5.329v12.501l6.575-7.172zm10.85 0l6.575 7.172v-12.501l-6.575 5.329zm-1.557 1.261l-3.868 3.135-3.868-3.135-8.11 8.848h23.956l-8.11-8.848z" />
+                    </svg>
+                </a>
+                <a class="social_link" href="https://www.linkedin.com/in/charmaine-ho-57a561229/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path
+                            d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                    </svg>
+                </a>
+                <a class="social_link" href="https://codepen.io/Charmaine_Ho">
+                    <svg width="15" height="15" viewBox="0 0 100 100">
+                        <path
+                            d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3L88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8L19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2L34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z">
+                        </path>
+                    </svg>
+                </a>
+                <a class="social_link" href="https://twitter.com/CharmaineHYM">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path
+                            d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" />
+                    </svg>
+                </a>
             </div>
-            <div class="experience_item dis-none" data-item="2">
-                <h3 class="experience_item_title">[PT] Multi Media Designer, Rosy Sky Banquets & Consultatuins Co.Ltd.</h3>
-                <p class="experience_item_period">Sep 2020 - Jun 2021</p>
-                <ul class="experience_item_list">
-                    <li class="experience_item_list_item">Building and maintaining two Websites (UIUX & Wordpress)</li>
-                    <li class="experience_item_list_item">Building Shopify</li>
-                    <li class="experience_item_list_item">Organizing events (e.g PayPal Christmas Party, PayPal Kids Party, etc)</li>
-                    <li class="experience_item_list_item">Online marketing (SEO, SEM, FB, Landing Page, Google analytics, etc)</li>
-                    <li class="experience_item_list_item">Videos editing</li>
-                    <li class="experience_item_list_item">Designing different materials</li>
-                </ul>
+        </section>
+        <section class="experience mar-h50 txt-c">
+            <div class="experience_content pad-r2">
+                <h2 class="experience_header main_header">Education & Work Experience</h2>
+                <div class="experience_wrapper">
+                    <div class="experience_item" data-item="0">
+                        <h3 class="experience_item_title">Hong Kong Shue Yan University</h3>
+                        <p class="experience_item_period">Sep 2017 - Aug 2021</p>
+                        <ul class="experience_item_list">
+                            <li class="experience_item_list_item">Bachelor of Art (Hons) in Journalism and Communication
+                            </li>
+                        </ul>
+                        <h3 class="experience_item_title">Lung Kong World Federation School Limited LWF Secondary School
+                        </h3>
+                        <p class="experience_item_period">Sep 2012 - Aug 2017</p>
+                        <ul class="experience_item_list">
+                            <li class="experience_item_list_item">Graduated</li>
+                        </ul>
+                    </div>
+                    <div class="experience_item dis-none" data-item="1">
+                        <h3 class="experience_item_title">[FT] Lane Crawford Joyce Group (Lane Crawford)</h3>
+                        <p class="experience_item_period">Jun 2021 - Current</p>
+                        <ul class="experience_item_list">
+                            <li class="experience_item_list_item">Site Content Update (lanecrawford.com/.hk/.cn)</li>
+                            <li class="experience_item_list_item">Site maintaining</li>
+                            <li class="experience_item_list_item">Site performance analysis</li>
+                            <li class="experience_item_list_item">Reporting</li>
+                            <li class="experience_item_list_item">UI/UX design</li>
+                        </ul>
+                    </div>
+                    <div class="experience_item dis-none" data-item="2">
+                        <h3 class="experience_item_title">[PT] Multi Media Designer, Rosy Sky Banquets & Consultatuins
+                            Co.Ltd.</h3>
+                        <p class="experience_item_period">Sep 2020 - Jun 2021</p>
+                        <ul class="experience_item_list">
+                            <li class="experience_item_list_item">Building and maintaining two Websites (UIUX &
+                                Wordpress)</li>
+                            <li class="experience_item_list_item">Building Shopify</li>
+                            <li class="experience_item_list_item">Organizing events (e.g PayPal Christmas Party, PayPal
+                                Kids Party, etc)</li>
+                            <li class="experience_item_list_item">Online marketing (SEO, SEM, FB, Landing Page, Google
+                                analytics, etc)</li>
+                            <li class="experience_item_list_item">Videos editing</li>
+                            <li class="experience_item_list_item">Designing different materials</li>
+                        </ul>
+                    </div>
+                    <div class="experience_item dis-none" data-item="3">
+                        <h3 class="experience_item_title">[Internship & PT] Public Relations & Marketing, Journesis
+                            Limited</h3>
+                        <p class="experience_item_period">Jul 2020 - Jun 2021</p>
+                        <ul class="experience_item_list">
+                            <li class="experience_item_list_item">Managing social media accounts (Facebook, Instagram,
+                                website)</li>
+                            <li class="experience_item_list_item">Building shopify for client</li>
+                            <li class="experience_item_list_item">Designing Website and apps (UIUX)</li>
+                            <li class="experience_item_list_item">Designing different materials</li>
+                            <li class="experience_item_list_item">Providing acticles</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="experience_item dis-none" data-item="3">
-                <h3 class="experience_item_title">[Internship & PT] Public Relations & Marketing, Journesis Limited</h3>
-                <p class="experience_item_period">Jul 2020 - Jun 2021</p>
-                <ul class="experience_item_list">
-                    <li class="experience_item_list_item">Managing social media accounts (Facebook, Instagram, website)</li>
-                    <li class="experience_item_list_item">Building shopify for client</li>
-                    <li class="experience_item_list_item">Designing Website and apps (UIUX)</li>
-                    <li class="experience_item_list_item">Designing different materials</li>
-                    <li class="experience_item_list_item">Providing acticles</li>
-                </ul>
+            <div class="experience_btn_wrapper">
+                <button class="experience_btn experience_btn_previous">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                        clip-rule="evenodd">
+                        <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                    </svg>
+                </button>
+                <button class="experience_btn experience_btn_next">
+                    <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                        clip-rule="evenodd">
+                        <path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z" />
+                    </svg>
+                </button>
             </div>
-        </div>
-        </div>
-        <div class="experience_btn_wrapper">
-            <button class="experience_btn experience_btn_previous">
-                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
-            </button>
-            <button class="experience_btn experience_btn_next">
-                <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M4 .755l14.374 11.245-14.374 11.219.619.781 15.381-12-15.391-12-.609.755z"/></svg>
-            </button>
-        </div>
-    </section>
-    <section class="skills pad-r2">
-        <h2 class="skills_header main_header pad-h20">What can I do</h2>
-        <div class="skills_items">
-        <div class="skills_item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm10 12c0 .685-.07 1.354-.202 2h-3.853c.121-1.283.129-2.621 0-4h3.853c.132.646.202 1.315.202 2zm-.841-4h-3.5c-.383-1.96-1.052-3.751-1.948-5.278 2.435.977 4.397 2.882 5.448 5.278zm-5.554 0h-2.605v-5.658c1.215 1.46 2.117 3.41 2.605 5.658zm-4.605-5.658v5.658h-2.605c.488-2.248 1.39-4.198 2.605-5.658zm0 7.658v4h-2.93c-.146-1.421-.146-2.577 0-4h2.93zm0 6v5.658c-1.215-1.46-2.117-3.41-2.605-5.658h2.605zm2 5.658v-5.658h2.605c-.488 2.248-1.39 4.198-2.605 5.658zm0-7.658v-4h2.93c.146 1.421.146 2.577 0 4h-2.93zm-4.711-11.278c-.896 1.527-1.565 3.318-1.948 5.278h-3.5c1.051-2.396 3.013-4.301 5.448-5.278zm-6.087 7.278h3.853c-.121 1.283-.129 2.621 0 4h-3.853c-.132-.646-.202-1.315-.202-2s.07-1.354.202-2zm.639 6h3.5c.383 1.96 1.052 3.751 1.948 5.278-2.435-.977-4.397-2.882-5.448-5.278zm12.87 5.278c.896-1.527 1.565-3.318 1.948-5.278h3.5c-1.051 2.396-3.013 4.301-5.448 5.278z"/></svg>
-            <p class="skills_item_title">Web development</p>
-            <p class="skills_item_description">Web design, web content, web develop and web maintaining</p>
-            <ul class="skills_item_list">
-                <li class="skills_item_list_item">Javascript</li>
-                <li class="skills_item_list_item">CSS</li>
-                <li class="skills_item_list_item">HTML</li>
-                <li class="skills_item_list_item">Wordpress</li>
-                <li class="skills_item_list_item">Shopify</li>
+        </section>
+        <section class="skills pad-r2">
+            <h2 class="skills_header main_header pad-h20">What can I do</h2>
+            <div class="skills_items">
+                <div class="skills_item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+                        <path
+                            d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm10 12c0 .685-.07 1.354-.202 2h-3.853c.121-1.283.129-2.621 0-4h3.853c.132.646.202 1.315.202 2zm-.841-4h-3.5c-.383-1.96-1.052-3.751-1.948-5.278 2.435.977 4.397 2.882 5.448 5.278zm-5.554 0h-2.605v-5.658c1.215 1.46 2.117 3.41 2.605 5.658zm-4.605-5.658v5.658h-2.605c.488-2.248 1.39-4.198 2.605-5.658zm0 7.658v4h-2.93c-.146-1.421-.146-2.577 0-4h2.93zm0 6v5.658c-1.215-1.46-2.117-3.41-2.605-5.658h2.605zm2 5.658v-5.658h2.605c-.488 2.248-1.39 4.198-2.605 5.658zm0-7.658v-4h2.93c.146 1.421.146 2.577 0 4h-2.93zm-4.711-11.278c-.896 1.527-1.565 3.318-1.948 5.278h-3.5c1.051-2.396 3.013-4.301 5.448-5.278zm-6.087 7.278h3.853c-.121 1.283-.129 2.621 0 4h-3.853c-.132-.646-.202-1.315-.202-2s.07-1.354.202-2zm.639 6h3.5c.383 1.96 1.052 3.751 1.948 5.278-2.435-.977-4.397-2.882-5.448-5.278zm12.87 5.278c.896-1.527 1.565-3.318 1.948-5.278h3.5c-1.051 2.396-3.013 4.301-5.448 5.278z" />
+                    </svg>
+                    <p class="skills_item_title">Web development</p>
+                    <p class="skills_item_description">Web design, web content, web develop and web maintaining</p>
+                    <ul class="skills_item_list">
+                        <li class="skills_item_list_item">Javascript</li>
+                        <li class="skills_item_list_item">CSS</li>
+                        <li class="skills_item_list_item">HTML</li>
+                        <li class="skills_item_list_item">Wordpress</li>
+                        <li class="skills_item_list_item">Shopify</li>
+                    </ul>
+                </div>
+                <div class="skills_item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+                        <path
+                            d="M18.247 6.763c-1.215 2.033-2.405 4.002-3.056 5.023-.82 1.287-1.102 1.471-2.748 2.142l-.173-.145c.363-1.752.491-2.063 1.606-3.106.882-.823 2.598-2.351 4.371-3.914zm-10.269 11.254l.871.727c-.16 2.549-2.361 3.452-4.231 3.222 1.736-1.604 1.924-3.639 3.36-3.949zm14.746-17.831s-7.887 6.857-10.213 9.03c-1.838 1.719-1.846 2.504-2.441 5.336l2.016 1.681c2.671-1.099 3.44-1.248 4.793-3.373 1.713-2.687 7.016-11.698 7.016-11.698.422-.748-.516-1.528-1.171-.976zm-14.098 15.767c-5.093.053-3.121 5.901-8.626 5.445 3.252 4.523 11.38 3.041 10.832-3.604l-2.206-1.841z" />
+                    </svg>
+                    <p class="skills_item_title">Design</p>
+                    <p class="skills_item_description">UI/UX, graphic, logo and print design</p>
+                    <ul class="skills_item_list">
+                        <li class="skills_item_list_item">Adobe XD</li>
+                        <li class="skills_item_list_item">Photoshop</li>
+                        <li class="skills_item_list_item">Illustrator</li>
+                        <li class="skills_item_list_item">Lightroom</li>
+                    </ul>
+                </div>
+                <div class="skills_item">
+                    <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path
+                            d="M5 15.613c0-.788.061-1.243.992-1.458 1.074-.249 2.075-.466 1.591-1.381-1.476-2.785-.392-4.274 1.166-4.274 1.054 0 1.874.681 1.874 1.936 0 2.907-1.605 1.551-1.623 5.564v1h-4v-1.387zm14 1.387h-9v-1c0-1.373-.11-2.129 1.322-2.46 1.433-.331 2.27-.621 1.623-1.841-1.966-3.713-.521-5.699 1.555-5.699 2.117 0 3.527 2.062 1.556 5.699-.666 1.227.218 1.518 1.621 1.841 1.411.326 1.323 1.067 1.323 2.46v1zm-6 4.949v-2.949h-2v2.949c-4.717-.472-8.479-4.232-8.949-8.949h2.949v-2h-2.949c.47-4.718 4.232-8.479 8.949-8.95v2.95h2v-2.95c4.717.471 8.479 4.232 8.949 8.95h-2.949v2h2.949c-.47 4.717-4.232 8.477-8.949 8.949zm-1-21.949c-6.627 0-12 5.372-12 12 0 6.627 5.373 12 12 12s12-5.373 12-12c0-6.628-5.373-12-12-12z" />
+                    </svg>
+                    <p class="skills_item_title">Marketing & Advertising</p>
+                    <p class="skills_item_description">Create and execute marketing & advertising strategy</p>
+                    <ul class="skills_item_list">
+                        <li class="skills_item_list_item">Google Ad</li>
+                        <li class="skills_item_list_item">Facebook Ad</li>
+                        <li class="skills_item_list_item">Instagram Ad</li>
+                    </ul>
+                </div>
+                <div class="skills_item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+                        <path
+                            d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z" />
+                    </svg>
+                    <p class="skills_item_title">Data Analysis</p>
+                    <p class="skills_item_description">Using tools to analysis site or ad performance</p>
+                    <ul class="skills_item_list">
+                        <li class="skills_item_list_item">Google Analytics</li>
+                        <li class="skills_item_list_item">Search Console</li>
+                        <li class="skills_item_list_item">Hotjar</li>
+                    </ul>
+                </div>
+                <div class="skills_item">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24">
+                        <path
+                            d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z" />
+                    </svg>
+                    <p class="skills_item_title">Video Editing</p>
+                    <p class="skills_item_description">Simply video editing with effect animation and caption</p>
+                    <ul class="skills_item_list">
+                        <li class="skills_item_list_item">Adobe Premiere</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="portfolio pad-r2">
+            <h2 class="skills_header main_header pad-h20">Portfolio</h2>
+            <div class="portfolio_content">
+                <figure class="portfolio_content_figure portfolio_content_figure_1">
+                    <img class="portfolio_content_img lazyLoad"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAB9CAQAAABtursuAAAArklEQVR42u3QIQEAAAACIP1/2hNGmEDDURXo1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KmTDOcYAH6UM6NSAAAAAElFTkSuQmCC"
+                        data-src="https://res.cloudinary.com/dn3c3zw9h/image/upload/v1644745680/Portfolio/charmaine_portfolio_tictactoe_n3lokx.png"
+                        alt="" loading="lazy">
+                    <div class="spinner"></div>
+                </figure>
+                <div class="portfolio_content_text portfolio_content_text_1">
+                    <p class="portfolio_content_header">Tic Tac Toe Mini Game</p>
+                    <p class="portfolio_content_description pad-h5">
+                        This is a game for two players who take turns marking the spaces in a three-by-three grid with X
+                        or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or
+                        diagonal row is the winner.
+                    </p>
+                    <p class="portfolio_content_description pad-h5">
+                        With this game structure, I start thinking the game function:
+                    </p>
+                    <ul class="portfolio_content_list">
+                        <li class="portfolio_content_list_item">There are two players in this game.</li>
+                        <li class="portfolio_content_list_item">Player will take turn when clicked on one of the boxes.
+                        </li>
+                        <li class="portfolio_content_list_item">Check winner (three of their marks in a horizontal,
+                            vertical, or diagonal row is the winner.)</li>
+                        <li class="portfolio_content_list_item">Check draw.</li>
+                        <li class="portfolio_content_list_item">Let player restart the game when one of them win or game
+                            draw.</li>
+                    </ul>
+                    <p class="portfolio_content_description pad-h5">Then, I create the 9x9 ui design, make the data
+                        object and event handler function.</p>
+                    <a href="https://codepen.io/Charmaine_Ho/pen/vYebQxr" class="portfolio_content_link">Check it out
+                        !</a>
+                </div>
+                <figure class="portfolio_content_figure portfolio_content_figure_2">
+                    <img class="portfolio_content_img lazyLoad"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAB9CAQAAABtursuAAAArklEQVR42u3QIQEAAAACIP1/2hNGmEDDURXo1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KmTDOcYAH6UM6NSAAAAAElFTkSuQmCC"
+                        data-src="https://res.cloudinary.com/dn3c3zw9h/image/upload/v1644755580/Portfolio/charmaine_portfolio_2_js21fb.png"
+                        alt="" loading="lazy">
+                    <div class="spinner"></div>
+                </figure>
+                <div class="portfolio_content_text portfolio_content_text_2">
+                    <p class="portfolio_content_header">Rotated animation on banner</p>
+                    <p class="portfolio_content_description pad-h5">This page is a product display page, company have
+                        some requests on the layout design:</p>
+                    <ul class="portfolio_content_list">
+                        <li class="portfolio_content_list_item">They want three images to be flips.</li>
+                        <li class="portfolio_content_list_item">They want to show the campaign logo.</li>
+                        <li class="portfolio_content_list_item">They want to mention three offers, in the meanwhile
+                            highlight the always on offer.</li>
+                        <li class="portfolio_content_list_item">They want to have two option of filters.</li>
+                    </ul>
+                    <p class="portfolio_content_description pad-h5">Based on the company style and nature, I make a
+                        fade-in-out infinite animation on the banner. Separated three offers into three parts which
+                        highlighted the always on offer and can be very easy to maintain if any of them needed to be
+                        remove when offer expired. For the filters, I only display either one of them when page loaded
+                        so as to save space. </p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <p class="footer_copyright">@2022 Charmaine. All right reserved</p>
+            <p class="footer_site_platform">This site was made using the following tools and tech:</p>
+            <ul class="footer_site_platform_list">
+                <li class="footer_site_platform_list_item">Git / GitHub (<a
+                        href="https://github.com/CharmaineHYM/personal-portfolio">see the source</a>)</li>
+                <li class="footer_site_platform_list_item">javaScript</li>
+                <li class="footer_site_platform_list_item">CSS3 (Grid / Flex)</li>
+                <li class="footer_site_platform_list_item">HTML5</li>
+                <li class="footer_site_platform_list_item">Netlify</li>
+                <li class="footer_site_platform_list_item">NPM</li>
             </ul>
-        </div>
-        <div class="skills_item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path d="M18.247 6.763c-1.215 2.033-2.405 4.002-3.056 5.023-.82 1.287-1.102 1.471-2.748 2.142l-.173-.145c.363-1.752.491-2.063 1.606-3.106.882-.823 2.598-2.351 4.371-3.914zm-10.269 11.254l.871.727c-.16 2.549-2.361 3.452-4.231 3.222 1.736-1.604 1.924-3.639 3.36-3.949zm14.746-17.831s-7.887 6.857-10.213 9.03c-1.838 1.719-1.846 2.504-2.441 5.336l2.016 1.681c2.671-1.099 3.44-1.248 4.793-3.373 1.713-2.687 7.016-11.698 7.016-11.698.422-.748-.516-1.528-1.171-.976zm-14.098 15.767c-5.093.053-3.121 5.901-8.626 5.445 3.252 4.523 11.38 3.041 10.832-3.604l-2.206-1.841z"/></svg>
-            <p class="skills_item_title">Design</p>
-            <p class="skills_item_description">UI/UX, graphic, logo and print design</p>
-            <ul class="skills_item_list">
-                <li class="skills_item_list_item">Adobe XD</li>
-                <li class="skills_item_list_item">Photoshop</li>
-                <li class="skills_item_list_item">Illustrator</li>
-                <li class="skills_item_list_item">Lightroom</li>
-            </ul>
-        </div>
-        <div class="skills_item">
-            <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 15.613c0-.788.061-1.243.992-1.458 1.074-.249 2.075-.466 1.591-1.381-1.476-2.785-.392-4.274 1.166-4.274 1.054 0 1.874.681 1.874 1.936 0 2.907-1.605 1.551-1.623 5.564v1h-4v-1.387zm14 1.387h-9v-1c0-1.373-.11-2.129 1.322-2.46 1.433-.331 2.27-.621 1.623-1.841-1.966-3.713-.521-5.699 1.555-5.699 2.117 0 3.527 2.062 1.556 5.699-.666 1.227.218 1.518 1.621 1.841 1.411.326 1.323 1.067 1.323 2.46v1zm-6 4.949v-2.949h-2v2.949c-4.717-.472-8.479-4.232-8.949-8.949h2.949v-2h-2.949c.47-4.718 4.232-8.479 8.949-8.95v2.95h2v-2.95c4.717.471 8.479 4.232 8.949 8.95h-2.949v2h2.949c-.47 4.717-4.232 8.477-8.949 8.949zm-1-21.949c-6.627 0-12 5.372-12 12 0 6.627 5.373 12 12 12s12-5.373 12-12c0-6.628-5.373-12-12-12z"/></svg>
-            <p class="skills_item_title">Marketing & Advertising</p>
-            <p class="skills_item_description">Create and execute marketing & advertising strategy</p>
-            <ul class="skills_item_list">
-                <li class="skills_item_list_item">Google Ad</li>
-                <li class="skills_item_list_item">Facebook Ad</li>
-                <li class="skills_item_list_item">Instagram Ad</li>
-            </ul>
-        </div>
-        <div class="skills_item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path d="M11.362 2c4.156 0 2.638 6 2.638 6s6-1.65 6 2.457v11.543h-16v-20h7.362zm.827-2h-10.189v24h20v-14.386c0-2.391-6.648-9.614-9.811-9.614zm4.811 13h-10v-1h10v1zm0 2h-10v1h10v-1zm0 3h-10v1h10v-1z"/></svg>
-            <p class="skills_item_title">Data Analysis</p>
-            <p class="skills_item_description">Using tools to analysis site or ad performance</p>
-            <ul class="skills_item_list">
-                <li class="skills_item_list_item">Google Analytics</li>
-                <li class="skills_item_list_item">Search Console</li>
-                <li class="skills_item_list_item">Hotjar</li>
-            </ul>
-        </div>
-        <div class="skills_item">
-            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 24 24"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
-            <p class="skills_item_title">Video Editing</p>
-            <p class="skills_item_description">Simply video editing with effect animation and caption</p>
-            <ul class="skills_item_list">
-                <li class="skills_item_list_item">Adobe Premiere</li>
-            </ul>
-        </div>
-    </div>
-    </section>
-    <section class="portfolio pad-r2">
-        <h2 class="skills_header main_header pad-h20">Portfolio</h2>
-        <div class="portfolio_content">
-            <figure class="portfolio_content_figure portfolio_content_figure_1">
-                <img class="portfolio_content_img lazyLoad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAB9CAQAAABtursuAAAArklEQVR42u3QIQEAAAACIP1/2hNGmEDDURXo1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KmTDOcYAH6UM6NSAAAAAElFTkSuQmCC" data-src="https://res.cloudinary.com/dn3c3zw9h/image/upload/v1644754586/charmaine_portfolio_tictactoe_levxch.png" alt="" loading="lazy">
-                <div class="spinner"></div>
-             </figure> 
-             <div class="portfolio_content_text portfolio_content_text_1">
-                <p class="portfolio_content_header">Tic Tac Toe Mini Game</p>
-                <p class="portfolio_content_description pad-h5">
-                    This is a game for two players who take turns marking the spaces in a three-by-three grid with X or O. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.
-                </p>
-                <p class="portfolio_content_description pad-h5">
-                    With this game structure, I start thinking the game function:
-                </p>
-                <ul class="portfolio_content_list">
-                    <li class="portfolio_content_list_item">There are two players in this game.</li>
-                    <li class="portfolio_content_list_item">Player will take turn when clicked on one of the boxes.</li>
-                    <li class="portfolio_content_list_item">Check winner (three of their marks in a horizontal, vertical, or diagonal row is the winner.)</li>
-                    <li class="portfolio_content_list_item">Check draw.</li>
-                    <li class="portfolio_content_list_item">Let player restart the game when one of them win or game draw.</li>
-                </ul>
-                <p class="portfolio_content_description pad-h5">Then, I create the 9x9 ui design, make the data object and event handler function.</p>
-                <a href="https://codepen.io/Charmaine_Ho/pen/vYebQxr" class="portfolio_content_link">Check it out !</a>
-            </div>  
-            <figure class="portfolio_content_figure portfolio_content_figure_2">
-                <img class="portfolio_content_img lazyLoad" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKcAAAB9CAQAAABtursuAAAArklEQVR42u3QIQEAAAACIP1/2hNGmEDDURXo1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp1olOnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KkTnTp16kSnTp3o1KmTDOcYAH6UM6NSAAAAAElFTkSuQmCC" data-src="https://res.cloudinary.com/dn3c3zw9h/image/upload/v1644755580/charmaine_portfolio_2_js21fb.png" alt="" loading="lazy">
-                <div class="spinner"></div>
-             </figure> 
-             <div class="portfolio_content_text portfolio_content_text_2">
-                <p class="portfolio_content_header">Rotated animation on banner</p>
-                <p class="portfolio_content_description pad-h5">This page is a product display page, company have some requests on the layout design:</p>
-                <ul class="portfolio_content_list">
-                    <li class="portfolio_content_list_item">They want three images to be flips.</li>
-                    <li class="portfolio_content_list_item">They want to show the campaign logo.</li>
-                    <li class="portfolio_content_list_item">They want to mention three offers, in the meanwhile highlight the always on offer.</li>
-                    <li class="portfolio_content_list_item">They want to have two option of filters.</li>
-                </ul>
-                <p class="portfolio_content_description pad-h5">Based on the company style and nature, I make a fade-in-out infinite animation on the banner. Separated three offers into three parts which highlighted the always on offer and can be very easy to maintain if any of them needed to be remove when offer expired. For the filters, I only display either one of them when page loaded so as to save space. </p>
-            </div>  
-        </div>
-    </section>
-    <footer class="footer">
-        <p class="footer_copyright">@2022 Charmaine. All right reserved</p>
-        <p class="footer_site_platform">This site was made using the following tools and tech:</p>
-        <ul class="footer_site_platform_list">
-            <li class="footer_site_platform_list_item">Git / GitHub (<a href="https://github.com/CharmaineHYM/personal-portfolio">see the source</a>)</li>
-            <li class="footer_site_platform_list_item">javaScript</li>
-            <li class="footer_site_platform_list_item">CSS3 (Grid / Flex)</li>
-            <li class="footer_site_platform_list_item">HTML5</li>
-            <li class="footer_site_platform_list_item">Netlify</li>
-            <li class="footer_site_platform_list_item">NPM</li>
-        </ul>
-    </footer>
+        </footer>
     </main>
 </body>
+
 </html>
